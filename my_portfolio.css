@@ -1,0 +1,470 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+li{
+  list-style: none;
+}
+
+/* ------------------------------------------- */
+
+header{
+    margin: 4% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width:40%;
+}
+
+.global_menu ul{
+    display: flex;
+    margin: auto 0;
+}
+
+.global_menu a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 120%;
+    margin-left: 3rem;
+}
+
+.garmin{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.about{
+    color: #707070;
+    margin-top: 25%;
+}
+
+.about1 a:hover{
+    color: #000;
+}
+
+.works2 a:hover{
+    color: #000;
+}
+
+.blog3 a:hover{
+    color: #000;
+}
+
+
+.about{
+    padding-bottom:33rem;
+    background-image: url(./images/背景左.jpg);
+    background-size: 80%;
+    background-size: cover;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.text1-1 , .text2-1 , .text3-1{
+    text-align: center;
+
+}
+
+.text1-1 h1 , .text2-1 h1 , .text3-1 h1{
+    display: inline-block;
+    font-size: 3rem;
+    border-bottom: 2px solid #707070;
+
+}
+.my_prof{
+    margin: 12% 25% 0 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.my{
+    margin: auto 0;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.my_photo{
+    width: 70%;
+}
+
+.my_prof_text{
+    width: 55%;
+}
+
+.my_prof_text h2 p{
+    float: left;
+}
+
+.my_name{
+    font-size: 2rem;
+}
+
+.my_birthday{
+    margin-top: 10%;
+}
+
+.border{
+    display: inline-block;
+    margin-left: 6%;
+    height: 5%;
+    border-left: 1px solid #707070;
+}
+
+.appeal{
+    margin: 3% 0 0 30%;
+}
+
+.appeal_text p{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.works{
+    padding-bottom: 13rem;
+    color: #707070;
+    background-image: url(./images/背景右.jpg);
+    background-size:cover;
+}
+
+.work_site , .blog_list{
+    margin-top: 8%;
+}
+
+.work_site{
+    margin-top: 9%;
+}
+
+.work_site1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 138px;
+}
+
+.bike , .samurai , .univercity{
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+.work_site1-2{
+    margin-top: 12%;
+}
+
+.blog{
+    margin-top: 10%;
+    color: #707070;
+    background-image: url(./images/背景左.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 60%;
+
+
+}
+
+.text3-1{
+    margin-bottom: 10%;
+}
+
+.blog_list{
+    text-align: center;
+}
+
+.list_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 7%;
+}
+
+.post{
+    text-align: center;
+}
+
+.icatch img{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 50%;
+    height: auto;
+}
+
+.blog_title{
+    margin-top: 1%;
+}
+
+.blog_content{
+    margin-bottom: 10%;
+}
+
+.list_1 img{
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.posts{
+    margin: 10% 20% 0 20%;
+}
+
+.post_title{
+    display: inline-block;
+    font-size: 2rem;
+    border-bottom: 2px solid #707070;
+}
+
+.post_date{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.post_image{
+    text-align: center;
+    margin:15% 0 15% 0 ;
+}
+
+
+.post_image img{
+    width: 100%;
+    height: auto;
+}
+
+.post_content{
+    letter-spacing: 0.3em;
+    line-height: 2rem;
+}
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 25%;
+}
+footer h2{
+    letter-spacing: 0.3em;
+}
+
+@media screen and (max-width:915px){
+
+    .global_menu{
+        width: 50%;
+    }
+    .logo img{
+        width: 60%;
+    }
+
+    .global_menu a{
+        font-size: 50%;
+        margin-left: 1rem;
+    }
+
+    .about1 a , .work2 a , .blog3 a{
+        font-size: 0.9rem;
+    }
+
+    .text1-1 h1 , .text2-1 h1 , .text3-1 h1{
+        font-size: 2rem;
+    }
+
+    .my_prof{
+        margin: 12% 10% 0 10%;
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .my{
+        text-align: center;
+    }
+
+    .my_photo{
+        width: 30%;
+    }
+
+    .my_prof_text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .my_prof_text p{
+        font-size: 0.75rem;
+    }
+    
+    .border {
+        height: 20px;
+        margin-left: 0;
+    }
+
+    .appeal{
+        margin: 5% auto;
+        width: 75%;
+        font-weight: 600;
+    }
+    
+
+    .bike , .samurai , .univercity{
+        width: 45%;
+        margin-top: 20%;
+    }
+
+    .work_site1-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 10% 0 10%;
+    }
+
+    .bike , .samurai , .univercity{
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    .list_1 , .list_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 7%;
+        margin: 0 10% 0 10%;
+
+    
+    }
+
+    .list_item{
+        width: 100%;
+        margin-bottom: 138px;
+    
+    }
+
+    .about , .works , .blog{
+        background-color: white;
+    }
+
+    .appeal p{
+        font-size: 65%;;
+        margin-top: 15%;
+        letter-spacing: 0.2em;
+        line-height: 2rem;
+    }
+    
+    .icatch img{
+        width: 100%;
+        height: auto;
+    }
+
+    .post_title , .post_date{
+        font-size: 100%;;
+    }
+    
+    .post_content{
+        font-size: 45%;
+        font-weight: 600;
+    }
+
+    footer h2{
+        font-size: 50%;
+    }
+
+
+}
+
+
+
+
+
+
